@@ -56,6 +56,8 @@ namespace Intersect
 
         [JsonProperty("Loot")] public LootOptions LootOpts = new LootOptions();
 
+        public SpriteOptions Sprites = new SpriteOptions();
+
         [JsonProperty("Npc")] public NpcOptions NpcOpts = new NpcOptions();
 
         public SmtpSettings SmtpSettings = new SmtpSettings();
